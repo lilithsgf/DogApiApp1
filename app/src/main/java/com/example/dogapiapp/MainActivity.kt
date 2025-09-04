@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
                     .into(dogImageView)
             } else {
                 Toast.makeText(
-                    this, "Error al obtener la imagen del perro.",
+                    this, "Error al obtener la imagen del perro",
                     Toast.LENGTH_SHORT
                 ).show()
             }
